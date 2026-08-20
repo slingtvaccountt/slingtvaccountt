@@ -2,39 +2,40 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+// https://astro.build/config
 export default defineConfig({
-  integrations: [
-    starlight({
-      title: 'Sling TV Login',
+	integrations: [
+		starlight({
+			title: 'Peacock TV Account Login',
 
-      head: [
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'google-site-verification',
-            content: 'bpyG_46Oxb8tkddkShnQUSNXXlLsS3_uprz6BW6X85g',
-          },
-        },
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'msvalidate.01',
-            content: 'B807FE4A03DB636D50EF7962DDBBE11F',
-          },
-        },
-      ],
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'google-site-verification',
+						content: 'tUI9BT1RIABRmftik1nEVColyPRItHU67IwjWOKTD74',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'msvalidate.01',
+						content: 'BB584AB80496A8B39F46F116A5BAF33C',
+					},
+				},
+			],
 
-      sidebar: [
-        {
-          label: 'Sling TV Login',
-          items: [
-            {
-              label: 'Sling TV Login Guide',
-              slug: 'sling-tv-login',
-            },
-          ],
-        },
-      ],
-    }),
-  ],
+			sidebar: [
+				{
+					label: 'Peacock TV Account Login',
+					items: [
+						{
+							label: 'Peacock TV Account Login',
+							slug: 'index',
+						},
+					],
+				},
+			],
+		}),
+	],
 });
