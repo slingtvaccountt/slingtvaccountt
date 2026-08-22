@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Peacock TV Account Login',
+			title: 'Sling TV Account Login',
 
 			head: [
 				{
