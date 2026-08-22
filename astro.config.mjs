@@ -27,10 +27,10 @@ export default defineConfig({
 
 			sidebar: [
 				{
-					label: 'Peacock TV Account Login',
+					label: 'Sling TV Account Login',
 					items: [
 						{
-							label: 'Peacock TV Account Login',
+							label: 'Sling TV Account Login',
 							slug: 'index',
 						},
 					],
